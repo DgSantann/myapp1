@@ -1,5 +1,8 @@
 const stockRoutes = require('./routes/stockRoutes');
-
+const productRoutes = require('./routes/stockRoutes');
+const clientRoutes = require('./routes/stockRoutes');
+const saleRoutes = require('./routes/stockRoutes');
+const orderRoutes = require('./routes/stockRoutes');
 
 // Definição das rotas da aplicação
 app.use('/api', productRoutes);
