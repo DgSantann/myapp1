@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 
 // Controller de Estoque 
-const stockController = require('../controllers/stockController')
+const stockController = require('../controllers/stockController');
 
 // Rotas para CRUD de Estoque
 

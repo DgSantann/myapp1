@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 
 // Controller de Clientes 
-const clientController = require('../controllers/clientController')
+const clientController = require('../controllers/clientController');
 
 // Rotas para CRUD de Clientes
 
