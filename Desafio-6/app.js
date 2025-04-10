@@ -9,10 +9,10 @@ conn();
 
 // Importação das rotas
 const stockRoutes = require('./routes/stockRoutes');
-const productRoutes = require('./routes/stockRoutes');
-const clientRoutes = require('./routes/stockRoutes');
-const saleRoutes = require('./routes/stockRoutes');
-const orderRoutes = require('./routes/stockRoutes');
+const productRoutes = require('./routes/productRoutes');
+const clientRoutes = require('./routes/clientRoutes');
+const saleRoutes = require('./routes/saleRoutes');
+const orderRoutes = require('./routes/orderRoutes');
 
 // Definição das rotas da aplicação
 app.use('/api', productRoutes);
